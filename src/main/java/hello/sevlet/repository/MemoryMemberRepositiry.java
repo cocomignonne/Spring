@@ -36,7 +36,12 @@ public class MemoryMemberRepositiry implements MemberRepository{
     }
 
 
-//    위에 구현한 로직을 검증하기 위해서는 TestCase를 작성해서 테스트를 해본다!!!!!!!!(현직에서는 당연한 것임!!!!)
+    public void clearStore(){
+        store.clear();
+    }
 
+//    위에 구현한 로직을 검증하기 위해서는 TestCase를 작성해서 테스트를 해본다!!!!!!!!(현직에서는 당연한 것임!!!!)
+//    코드를 코드를 통해 검증해본다!!! 보통은 main메서드에서 작동시켜서 해왔지만
+//    이제는 JUnit이라는 프레임워크를 사용해서 테스트를 실행한다!!!!!!
 
 }
